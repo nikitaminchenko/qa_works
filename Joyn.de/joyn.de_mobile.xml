@@ -1,0 +1,2956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>USER LOGGED OUT</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Home&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Image Carousel</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Worauf hast du Lust?] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;JOYN&quot; logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Magnifying glass&quot; logo</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C128</id>
+				<title>User is able to open the &quot;Search&quot; overlay by tapping on &quot;Magnifying glass&quot; logo on the top right in the header.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C129</id>
+				<title>&quot;Magnifying glass&quot; logo displayed on the top right in the header.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C137</id>
+				<title>User is able to receive a &quot;Leider nichts gefunden.&quot; error message by entering an invalid value into the search field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C146</id>
+				<title>User is able to receive a &quot;Leider nichts gefundeb.&quot; error message displayed beyond the search bar.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C147</id>
+				<title>The search results should not be able to display if the user enters an invalid term into the search field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C150</id>
+				<title>The search results should be able to display if the user enters an valid term into the search field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C151</id>
+				<title>Channel cards should be able to display in first positions.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C161</id>
+				<title>User is able to update immediately search results by adding letters to the search field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C162</id>
+				<title>User is able to update immediately search results by removing letters in the search field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C171</id>
+				<title>Search terms should be able to save in the overlay when the user goes to the details page and then uses the &quot;Back&quot; button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;User&quot; icon</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Sidebar</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C446</id>
+				<title>[Logged out]: User should be able to open the sidebar by taping the login link on the top right of the header</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18, PJDE22-64</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Login&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C307</id>
+				<title>User is able to be redirected to the registration page by tapping the &quot;Login&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C337</id>
+				<title>User is able to receive an &quot;E-Mail Adresse ist nicht qutlig&quot; error message by entering a not valid email.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C340</id>
+				<title>[Anmelden] button should be able to be inactive until the user enters a valid email.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C341</id>
+				<title>User is able to open the keyboard on mobile by tapping in textbox.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C342</id>
+				<title>User is able to receive a &quot;Du bist jetzt mit deiner E-Mail-Adresse &lt;useremail&gt; eingeloggt. Viel SpaB!&quot; message after tapping on the link in the mail.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C343</id>
+				<title>User is able to receive a confirmation email with a confirmation link after entering an unregistered email in the &quot;E-Mail-Adresse&quot; textbox.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C344</id>
+				<title>User is able to be redirected to the confirmation page by tapping link in the mail.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C346</id>
+				<title>User is able to tap on [Weiter] button to proceed with registration.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C347</id>
+				<title>User is able to be redirected to the previous email page by tapping on the &quot;E-Mail-Adresse falsch?&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C348</id>
+				<title>&quot;Shon, dass du da bist&quot; headline should be able displayed on the confirmation page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C349</id>
+				<title>&quot;Joyn&quot; logo should be able displayed on the confirmation page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C350</id>
+				<title>&quot;Nicht du?&quot; link should be able displayed on the confirmation page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C351</id>
+				<title>User is able to be redirected to the previous page by tapping the &quot;Nicht du?&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C352</id>
+				<title>User is able to be redirected to the password creation page by tapping on the [Weiter] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C355</id>
+				<title>The password creation page should contain &quot;Damit dein Account geschützt ist, überleg dir ein möglichst sicheres Passwort.&quot; message.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C356</id>
+				<title>The password creation page should contain the &quot;Erstelle dein neues Passwort&quot; headline.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C357</id>
+				<title>The password creation page should contain the &quot;Joyn&quot; logo.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C358</id>
+				<title>The password creation page should contain the filled &quot;Email&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C359</id>
+				<title>The password creation page should contain the &quot;Passwort&quot; filed.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C360</id>
+				<title>The password creation page should contain the [Weiter] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C361</id>
+				<title>[Weiter] button should be able to be inactive until the user enters a valid password in &quot;Passwort&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C362</id>
+				<title>The &quot;Passwort&quot; field should contain a minimum of 6 chars.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C363</id>
+				<title>Requirements for the &quot;Passwort&quot; field should be displayed after tapping on the &quot;Passwort&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C364</id>
+				<title>User is able to receive an error message if data in &quot;Passwort&quot; field is not valid.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C365</id>
+				<title>&quot;6 Zeichen&quot; requirement should display below the &quot;Password&quot; field when user tapping on the field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C366</id>
+				<title>&quot;Klein- und GroBbuchstaben&quot; requirement should display below the &quot;Password&quot; field when user tapping on the field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C367</id>
+				<title>&quot;1 Zahl&quot; requirement should display below the &quot;Password&quot; field when user tapping on the field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C368</id>
+				<title>&quot;6 Zeichen&quot; requirement should be marked as done if requirements are met.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C369</id>
+				<title>&quot;Klein- und GroBbuchstaben&quot; requirement should be marked as done if requirements are met.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C370</id>
+				<title>&quot;1 Zahl&quot; requirement should be marked as done if requirements are met.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C371</id>
+				<title>User is able to receive &quot;Joyn ist im Ausland nicht oder nur begrenzt nutzbar.&quot; message if the regions outside the Germany.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C372</id>
+				<title>The selected textbox should be marked with a white line.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C379</id>
+				<title>&quot;Registration&quot; page should contain a [Speichern] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C380</id>
+				<title>[Speichern] button should be able to be inactive until the user enters all text boxes with valid data.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C381</id>
+				<title>Colored circle around the account icon in the top right corner.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C382</id>
+				<title>User is able to be redirect to the &quot;Home&quot; page by tapping on the registration button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Registration&quot; page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C327</id>
+				<title>&quot;Registration&quot; page should contain an &quot;E-Mail-Adresse&quot; text box.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C328</id>
+				<title>&quot;Registration&quot; page should contain a [Apple] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C329</id>
+				<title>&quot;Registration&quot; page should contain a [Facebook] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C330</id>
+				<title>&quot;Registration&quot; page should contain a [Google] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C331</id>
+				<title>&quot;Registration&quot; page should contain a [netID] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C332</id>
+				<title>User is able to enter an email in &quot;E-Mail-Adresse&quot; text box that contains the special character - &quot;@&quot;.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C333</id>
+				<title>User is able to enter an email in &quot;E-Mail-Adresse&quot; text box that contains the special character - &quot;.&quot;.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C334</id>
+				<title>User is able to enter an email in &quot;E-Mail-Adresse&quot; text box that contains a maximum of 60 chars.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C336</id>
+				<title>&quot;Registration&quot; page should contain a [Anmelden] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C373</id>
+				<title>&quot;Registration&quot; page should contain a &quot;Tag&quot; text box.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C374</id>
+				<title>&quot;Registration&quot; page should contain a &quot;Monat&quot; text box.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C375</id>
+				<title>&quot;Registration&quot; page should contain a &quot;Jahr&quot; text box.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C376</id>
+				<title>&quot;Registration&quot; page should contain a &quot;manlich&quot; radiobutton.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C377</id>
+				<title>&quot;Registration&quot; page should contain a &quot;weiblich&quot; radiobutton.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C378</id>
+				<title>&quot;Registration&quot; page should contain a &quot;divers&quot; radiobutton.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Email check page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C450</id>
+				<title>[Logged out]: User should be able to open the the email check page by taping the &quot;Login&quot; link in the sidebar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C451</id>
+				<title>[Logged out]: User should be able to open the email check page by taping the bookmark button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C454</id>
+				<title>[Logged out]:The email check page should contain the Joyn logo</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C455</id>
+				<title>[Logged out]: The email check page should contain the &quot;Willkommen bei Joyn&quot; headline</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C456</id>
+				<title>[Logged out]: The email check page should contain the “Möchtest du dich registrieren oder einloggen? Gib einfach deine E-Mail-Adresse ein.” message</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C458</id>
+				<title>[Logged out]: The email check page should contain the email field with the placeholder “E-mail-Adresse”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C459</id>
+				<title>[Logged out]: The email check page should contain the “oder” line</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C460</id>
+				<title>[Logged out]: User should be able to log in with Facebook account by taping the Facebook button on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C461</id>
+				<title>[Logged out]: User should be able to log in with Google account by taping the Google button on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C462</id>
+				<title>[Logged out]: User should be able to log in with Apple account by taping the Apple button on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C463</id>
+				<title>[Logged out]: User should be able to log in with Telegram account by taping the Telegram button on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18, PJDE22-71</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C464</id>
+				<title>[Logged out]: User should be able to log in with Amazon account by taping the Amazon button on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18, PJDE22-70</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C480</id>
+				<title>[Logged out]: The input in the email field on the email check page should match the pattern [name]@[domain].[top-domain]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C481</id>
+				<title>[Logged out]: The [name] part of the email in the email field on the email check page should contain only latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C484</id>
+				<title>[Logged out]: User should not be able to log in with 61 symbol in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18, PJDE22-69</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C485</id>
+				<title>[Logged out]: User should be able to log in with 60 symbol in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C486</id>
+				<title>[Logged out]: User should be able to log in with 20 symbol in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C487</id>
+				<title>[Logged out]: User should not be able to log in with 5 symbol in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C488</id>
+				<title>[Logged out]: User should not be able to log in with an empty email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C492</id>
+				<title>[Logged out]: User should not be able to log in with SQL/HTML/JS tags in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C493</id>
+				<title>[Logged out]: The invitation email should be sent, if user taps the [Anmelden] button with unregistered email in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C498</id>
+				<title>[Logged out]: User should be able to log in with 6 symbols in the email field on the email check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Password check page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C452</id>
+				<title>[Logged out]: User should be able to log in by filling the fields on the check pages with already registered data</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C453</id>
+				<title>[Logged out]:The URL of the check pages should starts with https://interaction.7pass.de/</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C465</id>
+				<title>[Logged out]: User should be redirected to the password check page after taping the &quot;Login&quot; link in the sidebar, if he was logged in during previous sessions</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C466</id>
+				<title>[Logged out]: User should be able to open the password check page by filling email field on the email check page with registered email and taping the [Anmelden] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C467</id>
+				<title>[Logged out]: User should be able to complete the log in process by filing the password field on the password check page with registered password and taping the [Anmelden] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C468</id>
+				<title>[Logged out]: User should not be able to complete the log in process by filing the password field on the password check page with unregistered password and taping the [Anmelden] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C470</id>
+				<title>[Logged out]: User should be able to return to the email check page by taping the “Nicht du?” link on the password check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C471</id>
+				<title>[Logged out]: User should be redirected to the initial page after successful log in</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C472</id>
+				<title>[Logged out]:The password check page should contain the Joyn logo</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C473</id>
+				<title>[Logged out]:The password check page should contain the &quot;Willkommen zurück&quot; headline</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C474</id>
+				<title>[Logged out]:The password check page should contain the “Gib einfach dein Passwort ein und es geht direkt weiter.” message</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C475</id>
+				<title>[Logged out]:The password check page should contain the email, associated with user</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C477</id>
+				<title>[Logged out]:The password check page should contain the password field with the placeholder “Passwort”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C478</id>
+				<title>[Logged out]: User should be able to switch between visible/invisible password mode by tapping the eye icon in the password field on the password check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C479</id>
+				<title>[Logged out]: User should be able to open the password change page by taping the “Passwort vergessen?” link n the password check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C489</id>
+				<title>[Logged out]: User should not be able to log in with 5 symbol in the password field on the password check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C490</id>
+				<title>[Logged out]: User should be able to log in with 6 symbol in the password field on the password check page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C494</id>
+				<title>The input in the password field on the password check page should not exceed 20 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Einstellungen&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hilfe &amp; Kontakt&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Rechtliches&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Feedback senden&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Back arrow</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Card section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Resume lane &quot;Jetzt weiterschauen&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C286</id>
+				<title>Resume lane &quot;Jetzt weiterschauen&quot; should be able to display a maximum of 20 resume cards.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C287</id>
+				<title>Resume lane &quot;Jetzt weiterschauen&quot; not should be able to display an &quot;Alle &gt;&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C288</id>
+				<title>The 1st resume card in the resume lane &quot;Jetzt weiterschauen&quot; is the latest watched asset.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Resume card</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C289</id>
+				<title>Resume card should be able to contain a cover image.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C290</id>
+				<title>Resume card should be able to contain a progress bar at the bottom.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C291</id>
+				<title>Resume card should be able to contain an art logo.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C292</id>
+				<title>Resume card should be able to contain an title.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C293</id>
+				<title>Resume card should be able to contain a &quot;Play&quot; icon.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C294</id>
+				<title>Resume card should be able to contain a season.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C295</id>
+				<title>Resume card should be able to contain an episode number for serials.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C296</id>
+				<title>Resume card should be able to contain the remaining duration of the asset for movies.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C297</id>
+				<title>Resume card should be able to contain a vibrant color.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C298</id>
+				<title>User is able to resume the playback by tapping on a resume card.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C299</id>
+				<title>Next episode should be able to be displayed in a resume lane when the user finishes watching the previous episode.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Series detail&quot; page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C199</id>
+				<title>The &quot;Series details&quot; page should be able to display detailed information about the series at the bottom by tapping on the card.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C206</id>
+				<title>User is able to be redirect on the &quot;Series details&quot; page by tapping on the card.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C211</id>
+				<title>Available seasons in descending order should be able to displays at the bottom of the &quot;Series detail&quot; page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C212</id>
+				<title>The [Play] button should be able to displays at &quot;Series detail&quot; page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C213</id>
+				<title>The [Resume] button should be able to displays at &quot;Series detail&quot; page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C214</id>
+				<title>User should be able to start the video by tapping on the [Play] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C215</id>
+				<title>User should be able to resume the video by tapping on the [Resume] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C217</id>
+				<title>The &quot;Episode&quot; selector should be able to display all available episodes when the user taps on the season number.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C218</id>
+				<title>The &quot;Episode&quot; selector should be able to display available episodes of the currently selected season.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C220</id>
+				<title>The &quot;Episode&quot; card should be able to display cover.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C221</id>
+				<title>The &quot;Episode&quot; card should be able to display episode title</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C222</id>
+				<title>The &quot;Episode&quot; card should be able to display duration.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C223</id>
+				<title>The &quot;Episode&quot; card should be able to display airdate.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C224</id>
+				<title>The &quot;Episode&quot; card should be able to display availability flag (if available).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C225</id>
+				<title>The &quot;Episode&quot; card should be able to display the progress bar.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C227</id>
+				<title>User is able to starts episode by tapping on &quot;Episode&quot; card.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C242</id>
+				<title>User is able to start latest watched episode by tapping on the [Play] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C243</id>
+				<title>User is able to resume latest watched episode by tapping on the [Resume] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-26</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>VOD (Video On Demand)</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C253</id>
+				<title>User is able to open the video player by tapping on the card.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C254</id>
+				<title>The video player should contain close button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C255</id>
+				<title>The video player should contain progress bar (in vibrant color).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C256</id>
+				<title>The video player should contain art logo.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C257</id>
+				<title>The video player should contain fallback text.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C258</id>
+				<title>The video player should contain series number.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C259</id>
+				<title>The video player should contain episode number.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C260</id>
+				<title>The video player should contain series title.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C274</id>
+				<title>The video player should contain the next episode button, only for series.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C275</id>
+				<title>The video player should contain a skip-forward button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C276</id>
+				<title>The video player should contain a rewind button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C277</id>
+				<title>The video player should contain a [Play] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C278</id>
+				<title>The video player should contain a [Pause] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C279</id>
+				<title>The video player should contain the remaining time.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C280</id>
+				<title>The video player should contain a volume button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C281</id>
+				<title>The video player should contain the fullscreen button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C282</id>
+				<title>The video player should contain a ad logo (for the not premium users).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C283</id>
+				<title>User is able to scrub the progress bar, the playback goes on from the position where the scrubber point was released.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C284</id>
+				<title>User is able to fade out UI by tapping on any place on the player.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C285</id>
+				<title>User is able to change the rotation/orientation of the player.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Mediatheken&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Card section</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Live TV&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Video player</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Kostenlos registrieren] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Login] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Filter settings</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Chips over time</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Aktualles Programm&quot; card section</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Dropdown filter settings</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Chips over time</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Entdecken&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Search&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Serien&quot; chapter</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Filme&quot; chapter</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sport&quot; chapter</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;PLUS&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Du hast schon einen Account? Login&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Bottom navigation bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Home&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Mediatheken&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Live TV&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Entdecken&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;PLUS&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>USER LOGGED IN</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Joyn logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Hero lane</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Resume lane</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Resume card</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Bookmarks lane</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Channel lane</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Collection lane</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Series detail page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C412</id>
+				<title>The watch button on the Series details page should indicate the last watched episode name</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C413</id>
+				<title>The watch button on the Series details page should indicate the last watched episode view progress</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Season &amp; Episode lane</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Featured lane</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Live lane</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C185</id>
+				<title>The Live lane should be placed on the Home page, beyond the Featured lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C187</id>
+				<title>Only logged in user should be able observe the Live lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17, PJDE22-62</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C189</id>
+				<title>The Live lane should contain the Live Cards</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C198</id>
+				<title>The Live lane should not contain the [All] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C202</id>
+				<title>User should be able to scroll horizontally the Live lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Live card</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C190</id>
+				<title>The Live Card should contain a full-width image</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C194</id>
+				<title>The Live Card should contain a &quot;LIVE&quot; tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C195</id>
+				<title>The Live Card should contain an airtimes mark</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C196</id>
+				<title>The Live Card should contain a program title</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C197</id>
+				<title>The Live Card should contain a [Play] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C200</id>
+				<title>User should be redirected to the Live TV page after taping the Live Card in the Live lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C201</id>
+				<title>User should be able to watch the Live TV content by taping the corresponding Live Card in the Live lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-17</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Standard lane</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Mediatheken page</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Live TV page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C301</id>
+				<title>The Live TV page should contain the Live TV UI</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Live TV UI</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C302</id>
+				<title>User should be able to watch Live TV videos on the Live TV page via the Live TV UI</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C303</id>
+				<title>User should be able to observe the currently available Live TV videos by vertical scrolling of the EPG list</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C308</id>
+				<title>User should be able to open the Live TV video by click/taping the EPG of the video in the EPG list in the Live TV UI</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C309</id>
+				<title>User should be able to observe the EPG announcement by sliding the EPG horizontally in the Live TV UI</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C310</id>
+				<title>User should be able to switch on/of the fulscreen mode for a Live TV video by click/taping the fulscreen button in the Live TV UI</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C311</id>
+				<title>User should be able to watch Live TV video in the Live TV UI in windowed mode in portrait orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C313</id>
+				<title>The EGP should be present in the Live TV UI, below the Live TV video when it is played in windowed mode in portrait orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C339</id>
+				<title>User should be able to watch Live TV video in the Live TV UI in windowed mode in landscape orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20, PJDE22-60</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C312</id>
+				<title>User should be able to watch Live TV video in the Live TV UI in fullscreen mode in portrait orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20, PJDE22-58</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C338</id>
+				<title>User should be able to watch Live TV video in the Live TV UI in fullscreen mode in landscape orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C314</id>
+				<title>The EGP and EGP announcements in the Live TV UI should be changed when the video ends</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C315</id>
+				<title>The Live TV UI should contain a color gradient in the background, same as the channels color</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C316</id>
+				<title>The Live TV UI should contain a close icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20, PJDE22-59</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C317</id>
+				<title>The Live TV UI should contain a progress bar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C318</id>
+				<title>The Live TV UI should display the remaining time of current video</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C319</id>
+				<title>The Live TV UI should contain a fullscreen icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C320</id>
+				<title>The Live TV UI should contain a sound volume icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C321</id>
+				<title>The Live TV UI should contain an EPG list with EPG&apos;s</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C322</id>
+				<title>The EPG in the Live TV UI should contain the Live TV video timing</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C323</id>
+				<title>The EPG in the Live TV UI should contain the Live TV video name</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C324</id>
+				<title>The EPG in the Live TV UI should contain the Live TV video progress bar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C325</id>
+				<title>User should be able to proceed the watching the Live TV video after inerruption happens</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C326</id>
+				<title>User should be able to watch Live TV video in the Live TV UI without lags and sync issues, when internet bandwidth &gt;= 10 Mb/s</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C508</id>
+				<title>User should be able to change the orientation of the Live TV UI by changing the device orientation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Search page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search field</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>PLUS page</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Bottom navigation bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Home] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Mediatheken] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Live TV] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C300</id>
+				<title>User should be able to open the Live TV UI by click/taping the [Live TV] button in the bottom navigation bar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Search] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[PLUS] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>VOD UI</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>VOD playback</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C405</id>
+				<title>User should be able to watch all the videos, excluding Live TV ones, with VOD player</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C406</id>
+				<title>User should be able to watch VOD video without lags and sync issues, when internet bandwidth &gt; 10 Mb/s</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C407</id>
+				<title>The quality of the VOD video should be not less than HD</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C408</id>
+				<title>User should be able to proceed the watching the VOD video after inerruption happens</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C409</id>
+				<title>User should be able to use VOD player controls smoothly and clearly</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C410</id>
+				<title>The total energy consumption of the app should not prevail 300mAh/h</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C411</id>
+				<title>User should be able to find the prewiously briefly viewed VOD videos in the Resume lane</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-21</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>VOD autoplay</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C414</id>
+				<title>The autoplay notification should appear in the VOD in 20 seconds before the episode ends</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C415</id>
+				<title>The autoplay notification in the VOD should appear only if the following episode is available</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C417</id>
+				<title>The autoplay notification  in the VOD should contain the title of series</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C418</id>
+				<title>The autoplay notification  in the VOD should contain the season/episode number and title of the next episode</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C419</id>
+				<title>The autoplay notification  in the VOD should contain a countdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C420</id>
+				<title>The autoplay notification in the VOD should contain a [Jetzt abspielen] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C421</id>
+				<title>The autoplay notification in the VOD should contain a [Ausblenden] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C422</id>
+				<title>If the one exist, the following episode should start after the current episode finishes</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C509</id>
+				<title>The autoplay notification should not appear in the VOD, if there is no following episode of the series</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C423</id>
+				<title>The standard VOD UI should not be indicated when autoplay happens</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C424</id>
+				<title>The user should be able to hide the autoplay notification in the VOD by taping the [Ausblenden] button in the notification</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C425</id>
+				<title>The user should be able to forward to the following episode by taping the [Jetzt abspielen] button in the autoplay notification in the VOD</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>PJDE22-19</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
